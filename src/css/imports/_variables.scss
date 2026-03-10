@@ -1,14 +1,20 @@
 :root {
-	/* Colors */
-	--primary: rgba(255, 68, 0, 1);
-	--highlight: rgba(254, 213, 198, 1);
-	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
-	--black: rgba(43, 37, 35, 1);
+    /* Brand colors */
+    --primary: #912B68;        /* main CTA buttons */
+    --highlight: #7A144E;      /* hover / secondary accent */
+
+    /* Backgrounds */
+    --white: #F2F4F5;          /* main background */
+    --off-white: #DADCDD;      /* secondary background */
+
+    /* Neutral greys */
+    --grey-1: #E7E9EA;         /* very light sections */
+    --grey-2: #DADCDD;         /* cards / dividers */
+    --grey-3: #443047;         /* secondary text */
+    --grey-4: #2A1B2E;         /* strong text */
+
+    /* Dark text */
+    --black: #1C0320;          /* titles and main text */
 
 	/* Typography */
 	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
